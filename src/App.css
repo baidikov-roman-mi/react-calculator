@@ -1,42 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400&display=swap');
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.container{
+  background: #17181A;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px #315e96;
+  height: 600px;
+  font-family: 'Gabarito', sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.display{
+  position: relative;
+  height: 170px;
+  width: 100%;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.solving, .output{
+  position: absolute;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.solving{
+  right: 10px;
+  top: 10px;
+  color: #2781b2;
+  font-size: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
+.output{
+  left: 10px;
+  top: 80px;
+  color: #ffffff;
+  font-size: 3rem;
 }
 
-.read-the-docs {
-  color: #888;
+.calculations {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  padding: 0px 10px 10px 10px;
+  color: black;
+}
+
+.calculations > div {
+  background: #2e598b;
+  font-family: 'Gabarito', sans-serif;
+  min-width: 40px;
+  padding: 25px 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculations > div:hover{
+  background: #2781b2;
+  box-shadow: 0px 0px 20px 5px #315e96;
+}
+.calculations > div:active{
+  background: #0c3b54;
+  box-shadow: none;
+
+}
+.plus {
+ 	grid-row: span 2;
 }
