@@ -8,9 +8,10 @@
 .container{
   background: #17181A;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 5px #315e96;
+  box-shadow: 0px 0px 10px 5px #31963d;
   height: 600px;
   font-family: 'Gabarito', sans-serif;
+  border: 5px solid #31963d;
 }
 .display{
   position: relative;
@@ -23,8 +24,9 @@
 .solving{
   right: 10px;
   top: 10px;
-  color: #2781b2;
-  font-size: 2rem;
+  color: #27b235;
+  font-size: 1.5rem;
+  padding: 5px;
 }
 .output{
   left: 10px;
@@ -42,7 +44,7 @@
 }
 
 .calculations > div {
-  background: #2e598b;
+  background: #1a941c;
   font-family: 'Gabarito', sans-serif;
   min-width: 40px;
   padding: 25px 25px;
@@ -55,11 +57,11 @@
   align-items: center;
 }
 .calculations > div:hover{
-  background: #2781b2;
-  box-shadow: 0px 0px 20px 5px #315e96;
+  background: #27b229;
+  box-shadow: 0px 0px 20px 5px #3d9631;
 }
 .calculations > div:active{
-  background: #0c3b54;
+  background: #0c5413;
   box-shadow: none;
 
 }
