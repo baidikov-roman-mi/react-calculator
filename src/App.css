@@ -1,38 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400&display=swap");
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-.container{
-  background: #17181A;
+.container {
+  background: #17181a;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 5px #31963d;
   height: 600px;
-  font-family: 'Gabarito', sans-serif;
+  font-family: "Gabarito", sans-serif;
   border: 5px solid #31963d;
 }
-.display{
+.display {
   position: relative;
   height: 170px;
   width: 100%;
 }
-.solving, .output{
+.output {
   position: absolute;
-}
-.solving{
-  right: 10px;
-  top: 10px;
-  color: #27b235;
-  font-size: 1.5rem;
-  padding: 5px;
-}
-.output{
   left: 10px;
   top: 80px;
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .calculations {
@@ -45,7 +36,7 @@
 
 .calculations > div {
   background: #1a941c;
-  font-family: 'Gabarito', sans-serif;
+  font-family: "Gabarito", sans-serif;
   min-width: 40px;
   padding: 25px 25px;
   font-size: 20px;
@@ -56,15 +47,24 @@
   justify-content: center;
   align-items: center;
 }
-.calculations > div:hover{
+.calculations > div:hover {
   background: #27b229;
   box-shadow: 0px 0px 20px 5px #3d9631;
 }
-.calculations > div:active{
+.calculations > div:active {
   background: #0c5413;
   box-shadow: none;
-
 }
 .plus {
- 	grid-row: span 2;
+  grid-row: span 2;
+}
+.clearAll {
+  grid-column: span 2;
+}
+.error-message {
+  color: red;
+  font-family: "Gabarito", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
 }
