@@ -1,48 +1,74 @@
-# React + Vite
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&random=false&width=1100&height=70&lines=React+Calculator+%2B+Vite+and+JS)](https://git.io/typing-svg)
+
+<div align="center">
+    <p>Hello, this is my <strong>first</strong> project about react introduction, which includes:</p>
+    <a href='https://www.w3schools.com/typescript/typescript_intro.php' title="TypeScript" >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="42" width="42" alt="javascript logo"  />
+    </a>
+    <a href='https://www.w3schools.com/sass/sass_intro.php' title="css" >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="42" width="42" alt="css logo"  />
+    </a>
+    <a href='https://www.w3schools.com/sass/sass_intro.php' title="css" >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" width="42" alt="css logo"  />
+    </a>
+    <a href='https://vitejs.dev/' title="Vite">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" height="42" width="42" alt="git logo"  />
+    </a>
+        <a href='https://www.w3schools.com/html/html_intro.asp' title="HTML5" > 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="42" width="42" alt="html5 logo"  />
+    </a>
+</div>
+
+## Overview
+
+This project serves as a calculator using Vite for faster development, JavaScript for logic, and CSS for styling.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# How to load it locally?
+## Just to see the output
 
-You may have vite project to load the project. Make sure you have the latest installed version of `node`, `pnpm` and `git bash` .
+Here is the [link to the Netlify preview](https://celebrated-halva-175c09.netlify.app/). You can see the result without any local setup.
 
-## Step 1:
+## To load this project locally, follow these steps:
 
-Open git bash terminal and create vite project :
+### First step: Check for `node` and `pnpm`
 
-`pnpm create vite <your folder name> `
+- To check it, run the following commands in your bash terminal: `node -v`, `pnpm -v`
 
-or if you don't want to create a new folder for the project jus type this:
+  - If you don't have `node` on your device, install it [here](https://nodejs.org/en)
 
-`pnpm create vite . `
+  - If you don't have `pnpm`, run this command in your terminal: `npm install -D pnpm`
 
-## Step 2:
+### Second step: Clone this repository using this commands :
 
-Select "React" using arrow keys and click Enter
+```
+git clone https://github.com/baidikov-roman-mi/react-calculator
+cd react-calculator
+```
 
-## Step 3:
+> The cd command is necessary only if your current folder is not empty.
 
-Select "JavaScript + SWC" using arrow keys and click Enter again
+Otherwise, just add "." in the end of `git clone`, and the project will be cloned iside of the folder you are in:
 
-## Step 4:
+```
+git clone https://github.com/baidikov-roman-mi/react-calculator .
+```
 
-After installing, type:
+### Third step: Local setup
 
-`cd <your folder name>`
+You have to install dependencies, and finally start the development server by running a command below:
 
-and
+```
+pnpm install && pnpm run dev
+```
 
-`pnpm install`
+You'll get a message inside the bash terminal:
 
-## Step 5:
+>> **Server running at http://localhost:5173/**
 
-Replace the files from the project to your folder and you can use the project locally and edit it as you wish
-
-# If you just want to see the result
-
-I will stay here the [CodeSandbox link](https://codesandbox.io/p/github/baidikov-roman-mi/react-calculator/main?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clqfkt1o400062a667i3smts3%2522%252C%2522sizes%2522%253A%255B43.6804553449233%252C56.3195446550767%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clqfkt1o300022a66pgvxemhr%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clqfkt1o300042a6696qh66sg%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clqfkt1o400052a66rfqg33ts%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clqfkt1o300022a66pgvxemhr%2522%253A%257B%2522id%2522%253A%2522clqfkt1o300022a66pgvxemhr%2522%252C%2522activeTabId%2522%253A%2522clqfkxtoe00ub2a66zp1nm8tz%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clqfkt1o300012a66sjx9fzma%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252F.eslintrc.cjs%2522%257D%252C%257B%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252F.codesandbox%252Ftasks.json%2522%252C%2522id%2522%253A%2522clqfkxtoe00ub2a66zp1nm8tz%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%257D%252C%2522clqfkt1o400052a66rfqg33ts%2522%253A%257B%2522id%2522%253A%2522clqfkt1o400052a66rfqg33ts%2522%252C%2522activeTabId%2522%253A%2522clqfkxos200rn2a66fq6np8ga%2522%252C%2522tabs%2522%253A%255B%257B%2522type%2522%253A%2522TASK_PORT%2522%252C%2522taskId%2522%253A%2522dev%2522%252C%2522port%2522%253A5173%252C%2522id%2522%253A%2522clqfkxos200rn2a66fq6np8ga%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522path%2522%253A%2522%252F%2522%257D%255D%257D%252C%2522clqfkt1o300042a6696qh66sg%2522%253A%257B%2522id%2522%253A%2522clqfkt1o300042a6696qh66sg%2522%252C%2522activeTabId%2522%253A%2522clqfkt4jg004s2a66osl7nkn9%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clqfkt1o300032a66dlczjxj2%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clqfktf78000pegia8gkc96kr%2522%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522dev%2522%252C%2522id%2522%253A%2522clqfkt4jg004s2a66osl7nkn9%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522CSB_RUN_OUTSIDE_CONTAINER%253D1%2520devcontainer%2520templates%2520apply%2520--template-id%2520%255C%2522ghcr.io%252Fdevcontainers%252Ftemplates%252Fjavascript-node%255C%2522%2520--template-args%2520%27%257B%257D%27%2520--features%2520%27%255B%255D%27%2522%252C%2522id%2522%253A%2522clqfkv3f100cx2a66dgsh3qwm%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D) where you can see the result.
+This means that you have successfully set up the project and you are free for local coding.
